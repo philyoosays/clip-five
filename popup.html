@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clip-Five History</title>
+    <style>
+        body {
+            width: 250px;
+            background: #353535;
+            color: #FFF;
+            border-radius: 5px;
+            padding: 15px;
+        }
+
+        .clip-item { 
+            padding: 8px; 
+            border-bottom: 1px solid #eee; 
+            cursor: pointer;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .clip-item:hover { background-color: #808080; }
+        #message { padding: 8px; font-style: italic; color: gray; }
+    </style>
+</head>
+<body>
+    <div id="history-list">
+        <div id="message">Loading...</div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
